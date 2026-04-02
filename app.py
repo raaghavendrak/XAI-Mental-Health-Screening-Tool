@@ -7,7 +7,6 @@ import pickle
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 from lime.lime_text import LimeTextExplainer
-from IPython.display import display
 
 max_length = 200   # Max length of each sequence
 trunc_type = 'post' # Chop off the end if longer than max_length
