@@ -13,10 +13,10 @@ trunc_type = 'post' # Chop off the end if longer than max_length
 padding_type = 'post' # Add zeros at the end if shorter
 
 # 1. Load the trained model and tokenizer
-model = load_model(r'..\Model\BiLSTM\model_bilstm.keras')
+model = load_model(r'Model\BiLSTM\model_bilstm.keras')
 
 # 2. Load the tokenizer (ensure this matches your training stage)
-with open(r'..\Model\BiLSTM\tokenizer.pickle', 'rb') as handle:
+with open(r'Model\BiLSTM\tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 
 def predict_risk(text):
