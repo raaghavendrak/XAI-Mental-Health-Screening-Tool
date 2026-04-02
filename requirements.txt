@@ -2,5 +2,4 @@ streamlit
 numpy
 scikit-learn
 ollama
-pickle
 tensorflow
